@@ -1,0 +1,410 @@
+<<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Himanique Gifts — Personalized & Custom Gifts</title>
+  <meta name="description" content="Himanique — Customised and personalized gifts for every occasion. Unique, thoughtful, and handmade gifts crafted with love." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800 antialiased">
+  <!-- NAV -->
+  <header class="w-full bg-white/80 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-pink-600 text-white rounded-full grid place-items-center font-bold">H</div>
+        <div class="hidden md:block">
+          <p class="font-semibold">Himanique Gifts</p>
+          <p class="text-xs text-gray-500">Customised With Love</p>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#home" class="hover:text-pink-600">Home</a>
+        <a href="#features" class="hover:text-pink-600">Our Gifts</a>
+        <a href="#about" class="hover:text-pink-600">About</a>
+        <a href="#contact" class="hover:text-pink-600">Contact</a>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="menuBtn" aria-label="menu" class="p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white/95 border-t">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#home" class="py-2">Home</a>
+        <a href="#features" class="py-2">Our Gifts</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="max-w-6xl mx-auto px-6 py-16">
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Make Every Moment Special <span class="text-pink-600">With Personalized Gifts</span></h1>
+        <p class="mt-4 text-gray-600 max-w-xl">At <strong>Himanique</strong>, we create customised gifts that carry emotions — from birthdays and anniversaries to corporate events. Every piece is crafted with love and attention to detail.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-pink-600 text-white font-semibold shadow hover:brightness-95">Order Now</a>
+          <a href="#features" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border">Browse Gifts</a>
+        </div>
+
+        <div class="mt-8 flex gap-4 items-center text-sm text-gray-500">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-pink-100 grid place-items-center">🎁</div>
+            <div>
+              <div class="font-semibold">Handmade</div>
+              <div class="text-xs">Unique & thoughtful</div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-pink-100 grid place-items-center">💝</div>
+            <div>
+              <div class="font-semibold">Personalized</div>
+              <div class="text-xs">Made specially for you</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-first md:order-last">
+        <div class="w-full h-64 md:h-80 rounded-2xl bg-gradient-to-br from-pink-100 to-white p-1">
+          <div class="w-full h-full rounded-xl bg-white grid place-items-center border-dashed border-2 border-gray-200">
+            <div class="text-center px-6">
+              <div class="text-xl font-semibold">Your perfect gift image</div>
+              <p class="text-sm text-gray-500">Replace with photos of customised gifts you offer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / PRODUCTS -->
+    <section id="features" class="mt-16">
+      <h2 class="text-2xl font-bold">Our Bestsellers</h2>
+      <p class="text-gray-600 mt-2">Explore some of our most loved customised gifts.</p>
+
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Photo+Frames" class="rounded-lg mb-3" alt="Photo Frames" />
+          <h3 class="font-semibold">Custom Photo Frames</h3>
+          <p class="mt-2 text-sm text-gray-500">Beautifully designed frames with your memories.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Mugs" class="rounded-lg mb-3" alt="Custom Mugs" />
+          <h3 class="font-semibold">Personalized Mugs</h3>
+          <p class="mt-2 text-sm text-gray-500">Start your day with a mug that’s truly yours.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Gift+Boxes" class="rounded-lg mb-3" alt="Gift Boxes" />
+          <h3 class="font-semibold">Curated Gift Boxes</h3>
+          <p class="mt-2 text-sm text-gray-500">Specially curated boxes for birthdays, weddings & more.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="mt-16 bg-white p-6 rounded-2xl shadow-sm">
+      <div class="md:flex items-center gap-8">
+        <div class="md:w-1/3">
+          <img src="https://via.placeholder.com/400x300.png?text=About+Us" alt="about" class="rounded-lg w-full object-cover" />
+        </div>
+        <div class="md:w-2/3 mt-4 md:mt-0">
+          <h3 class="text-xl font-bold">About Himanique</h3>
+          <p class="mt-3 text-gray-600">We believe gifts should be more than just products — they should tell a story. At Himanique, every customised gift is designed to bring joy, strengthen bonds, and create memories that last forever.</p>
+
+          <ul class="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-gray-600">
+            <li>✔️ 100% personalized gifts</li>
+            <li>✔️ Crafted with love</li>
+            <li>✔️ Trusted by happy customers</li>
+            <li>✔️ Perfect for every occasion</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-16">
+      <h2 class="text-2xl font-bold">Place Your Order</h2>
+      <p class="text-gray-600 mt-2">Tell us what you want customised and we’ll bring it to life.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <form id="contactForm" class="bg-white p-6 rounded-2xl shadow-sm">
+          <label class="block text-sm">Name</label>
+          <input id="name" required class="w-full mt-2 p-3 rounded-lg border" placeholder="Your name" />
+
+          <label class="block text-sm mt-4">Email</label>
+          <input id="email" type="email" required class="w-full mt-2 p-3 rounded-lg border" placeholder="your@email.com" />
+
+          <label class="block text-sm mt-4">Gift Details</label>
+          <textarea id="message" required class="w-full mt-2 p-3 rounded-lg border" placeholder="Describe the gift you’d like customised" rows="4"></textarea>
+
+          <div class="mt-4 flex items-center gap-3">
+            <button type="submit" class="px-5 py-3 rounded-lg bg-pink-600 text-white font-semibold">Send Request</button>
+            <div id="formStatus" class="text-sm text-gray-600"></div>
+          </div>
+        </form>
+
+        <div class="p-6 rounded-2xl bg-white shadow-sm">
+          <h4 class="font-semibold">Contact details</h4>
+          <p class="mt-2 text-sm text-gray-600">Email: hello@himanique.com</p>
+          <p class="mt-1 text-sm text-gray-600">Phone: +91-9876543210</p>
+
+          <div class="mt-6">
+            <h5 class="font-semibold text-sm">Visit us</h5>
+            <p class="text-sm text-gray-600 mt-2">123 Gift Lane, New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-16 text-center text-sm text-gray-500 pb-12">
+      © <span id="year"></span> Himanique Gifts — Made with ❤️ in India. <br />
+      <small>Customised gifts for every occasion — because every detail matters.</small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if(menuBtn){
+      menuBtn.addEventListener('click', ()=>{
+        mobileMenu.classList.toggle('hidden');
+      })
+    }
+
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if(!name || !email || !message){ status.textContent = 'Please fill all fields.'; return; }
+
+      status.textContent = 'Sending...';
+      setTimeout(()=>{
+        status.textContent = 'Request sent! (demo) — configure a backend to receive messages.';
+        form.reset();
+      }, 900);
+    })
+  </script>
+</body>
+</html>
+!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Himanique Gifts — Personalized & Custom Gifts</title>
+  <meta name="description" content="Himanique — Customised and personalized gifts for every occasion. Unique, thoughtful, and handmade gifts crafted with love." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800 antialiased">
+  <!-- NAV -->
+  <header class="w-full bg-white/80 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-pink-600 text-white rounded-full grid place-items-center font-bold">H</div>
+        <div class="hidden md:block">
+          <p class="font-semibold">Himanique Gifts</p>
+          <p class="text-xs text-gray-500">Customised With Love</p>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#home" class="hover:text-pink-600">Home</a>
+        <a href="#features" class="hover:text-pink-600">Our Gifts</a>
+        <a href="#about" class="hover:text-pink-600">About</a>
+        <a href="#contact" class="hover:text-pink-600">Contact</a>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="menuBtn" aria-label="menu" class="p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white/95 border-t">
+      <div class="px-6 py-4 flex flex-col gap-3">
+        <a href="#home" class="py-2">Home</a>
+        <a href="#features" class="py-2">Our Gifts</a>
+        <a href="#about" class="py-2">About</a>
+        <a href="#contact" class="py-2">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="max-w-6xl mx-auto px-6 py-16">
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Make Every Moment Special <span class="text-pink-600">With Personalized Gifts</span></h1>
+        <p class="mt-4 text-gray-600 max-w-xl">At <strong>Himanique</strong>, we create customised gifts that carry emotions — from birthdays and anniversaries to corporate events. Every piece is crafted with love and attention to detail.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-pink-600 text-white font-semibold shadow hover:brightness-95">Order Now</a>
+          <a href="#features" class="inline-flex items-center gap-2 px-5 py-3 rounded-lg border">Browse Gifts</a>
+        </div>
+
+        <div class="mt-8 flex gap-4 items-center text-sm text-gray-500">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-pink-100 grid place-items-center">🎁</div>
+            <div>
+              <div class="font-semibold">Handmade</div>
+              <div class="text-xs">Unique & thoughtful</div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-pink-100 grid place-items-center">💝</div>
+            <div>
+              <div class="font-semibold">Personalized</div>
+              <div class="text-xs">Made specially for you</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-first md:order-last">
+        <div class="w-full h-64 md:h-80 rounded-2xl bg-gradient-to-br from-pink-100 to-white p-1">
+          <div class="w-full h-full rounded-xl bg-white grid place-items-center border-dashed border-2 border-gray-200">
+            <div class="text-center px-6">
+              <div class="text-xl font-semibold">Your perfect gift image</div>
+              <p class="text-sm text-gray-500">Replace with photos of customised gifts you offer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / PRODUCTS -->
+    <section id="features" class="mt-16">
+      <h2 class="text-2xl font-bold">Our Bestsellers</h2>
+      <p class="text-gray-600 mt-2">Explore some of our most loved customised gifts.</p>
+
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Photo+Frames" class="rounded-lg mb-3" alt="Photo Frames" />
+          <h3 class="font-semibold">Custom Photo Frames</h3>
+          <p class="mt-2 text-sm text-gray-500">Beautifully designed frames with your memories.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Mugs" class="rounded-lg mb-3" alt="Custom Mugs" />
+          <h3 class="font-semibold">Personalized Mugs</h3>
+          <p class="mt-2 text-sm text-gray-500">Start your day with a mug that’s truly yours.</p>
+        </div>
+        <div class="p-5 bg-white rounded-2xl shadow-sm">
+          <img src="https://via.placeholder.com/400x250.png?text=Gift+Boxes" class="rounded-lg mb-3" alt="Gift Boxes" />
+          <h3 class="font-semibold">Curated Gift Boxes</h3>
+          <p class="mt-2 text-sm text-gray-500">Specially curated boxes for birthdays, weddings & more.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="mt-16 bg-white p-6 rounded-2xl shadow-sm">
+      <div class="md:flex items-center gap-8">
+        <div class="md:w-1/3">
+          <img src="https://via.placeholder.com/400x300.png?text=About+Us" alt="about" class="rounded-lg w-full object-cover" />
+        </div>
+        <div class="md:w-2/3 mt-4 md:mt-0">
+          <h3 class="text-xl font-bold">About Himanique</h3>
+          <p class="mt-3 text-gray-600">We believe gifts should be more than just products — they should tell a story. At Himanique, every customised gift is designed to bring joy, strengthen bonds, and create memories that last forever.</p>
+
+          <ul class="mt-4 grid sm:grid-cols-2 gap-3 text-sm text-gray-600">
+            <li>✔️ 100% personalized gifts</li>
+            <li>✔️ Crafted with love</li>
+            <li>✔️ Trusted by happy customers</li>
+            <li>✔️ Perfect for every occasion</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-16">
+      <h2 class="text-2xl font-bold">Place Your Order</h2>
+      <p class="text-gray-600 mt-2">Tell us what you want customised and we’ll bring it to life.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <form id="contactForm" class="bg-white p-6 rounded-2xl shadow-sm">
+          <label class="block text-sm">Name</label>
+          <input id="name" required class="w-full mt-2 p-3 rounded-lg border" placeholder="Your name" />
+
+          <label class="block text-sm mt-4">Email</label>
+          <input id="email" type="email" required class="w-full mt-2 p-3 rounded-lg border" placeholder="your@email.com" />
+
+          <label class="block text-sm mt-4">Gift Details</label>
+          <textarea id="message" required class="w-full mt-2 p-3 rounded-lg border" placeholder="Describe the gift you’d like customised" rows="4"></textarea>
+
+          <div class="mt-4 flex items-center gap-3">
+            <button type="submit" class="px-5 py-3 rounded-lg bg-pink-600 text-white font-semibold">Send Request</button>
+            <div id="formStatus" class="text-sm text-gray-600"></div>
+          </div>
+        </form>
+
+        <div class="p-6 rounded-2xl bg-white shadow-sm">
+          <h4 class="font-semibold">Contact details</h4>
+          <p class="mt-2 text-sm text-gray-600">Email: hello@himanique.com</p>
+          <p class="mt-1 text-sm text-gray-600">Phone: +91-9876543210</p>
+
+          <div class="mt-6">
+            <h5 class="font-semibold text-sm">Visit us</h5>
+            <p class="text-sm text-gray-600 mt-2">123 Gift Lane, New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-16 text-center text-sm text-gray-500 pb-12">
+      © <span id="year"></span> Himanique Gifts — Made with ❤️ in India. <br />
+      <small>Customised gifts for every occasion — because every detail matters.</small>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    if(menuBtn){
+      menuBtn.addEventListener('click', ()=>{
+        mobileMenu.classList.toggle('hidden');
+      })
+    }
+
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if(!name || !email || !message){ status.textContent = 'Please fill all fields.'; return; }
+
+      status.textContent = 'Sending...';
+      setTimeout(()=>{
+        status.textContent = 'Request sent! (demo) — configure a backend to receive messages.';
+        form.reset();
+      }, 900);
+    })
+  </script>
+</body>
+</html>
